@@ -7,7 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HI</h1>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+        }
+        button{
+            padding: 10px;
+            font-size: large;
+            font-weight: bold;
+            background-color: rgb(27, 168, 168);
+            color: aqua;
+            border-radius: 10px;
+        }
+        .results-div{
+            padding: 20px;
+            text-align: center;
+            font-size: larger;
+            font-weight: bold;
+            color:rgb(255, 136, 0);
+        }
+    </style>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="container">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="results-div"></div>
     <script src="index.js"></script>
 </body>
 </html>
